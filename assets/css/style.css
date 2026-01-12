@@ -1,0 +1,331 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: "Poppins", sans-serif;
+}
+@media only screen and (max-width: 1024px){
+  .welcome{
+    display: none;
+  }
+}
+.first{
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background-color: rgb(150, 73, 150);
+  height: 60px;
+  color: white;
+  list-style: none;
+  justify-content: center;
+  font-size: medium;
+  box-shadow: 0px 4px 8px rgb(80, 78, 78);
+}
+.first1, .first2, .first3{
+  display: flex;
+  padding-top: 17px;
+}
+.first1{
+  margin-right: auto;
+  margin-left: 20px;
+}
+.first3{
+  margin-left: auto;
+  margin-right: 20px;
+}
+.first1img{
+  height: 25px;
+  width: 25px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 100px;
+}
+.carousel, .navbar{
+  position: relative;
+  z-index: 99;
+}
+#color1{
+  color: rgb(178, 66, 178);
+}
+#color2{
+  color: rgb(45, 2, 45);
+}
+#color2:hover{
+  color: rgb(178, 66, 178);
+}
+.div{
+  margin-top: 2px;
+  margin-left: 3px;
+}
+.navbar{
+  background-color: #eaf0f0;
+}
+.d-block{
+  height: 650px;
+  width: 100%;
+}
+.div2info4{
+  margin-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  background-color: rgb(46, 5, 46);
+  color: white;
+}
+.div2info4:hover{
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+.second, .table{
+  padding-top: 100px;
+  margin-left: 11%;
+}
+.second1{
+  color: rgb(178, 66, 178);
+}
+.second2{
+  margin-left: 11%;
+  /* width: 50%; */
+}
+#img{
+  height: 70px;
+  width: 80px;
+}
+.second3{
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  z-index: 1;
+}
+.second3 .d-flex{
+  padding-bottom: 30px;
+  width: 570px;
+  background-color: #e2e2e7;
+  border-radius: 20px 20px 0px 15px;
+}
+.read{
+  color: rgb(76, 31, 76);
+}
+.read:hover{
+  color: rgb(178, 66, 178);
+}
+
+
+.second4{
+  background-image: url(../images/track-bg.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  margin-top: 100px;
+}
+.second4 {
+  width: 600px;
+}
+.table{
+  padding-top: 50px;
+  margin-left: 8%;
+  width: 85%;
+}
+.second5{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 40px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.img5{
+  border-radius: 30px 30px 0 30px;
+  border: 5px solid rgb(76, 31, 76);
+}
+.img6{
+  width: 500px;
+}
+.para{
+  background-color: rgb(76, 31, 76);
+  color: rgb(236, 232, 236);
+  border-radius: 30px 0 30px 0;
+}
+.second7{
+  padding-top: 20px;
+  width: 600px;
+}
+.form-control1{
+  height: 45px;
+  width: 100%;
+  border-radius: 5px;
+  font-weight: 500;
+  border: 1px 1px rgb(178, 66, 178);
+  box-shadow: 0 10xp rgb(178, 66, 178);
+  border-color: rgb(225, 204, 225);
+  outline: none;
+  padding-left: 10px;
+}
+.form-control::placeholder{
+  color: rgb(28, 1, 51);
+}
+.fouri{
+  background-color: rgb(28, 1, 51);
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  border-radius: 5px;
+  border-radius: 10px 10px 0 10px;
+}
+.fouri:hover{
+  background-color: transparent;
+  color: rgb(28, 1, 51);
+  cursor: pointer;
+}
+.first1img1{
+  height: 20px;
+  width: 20px;
+  margin-right: 20px;
+}
+.first1img2{
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.first1img3{
+  height: 20px;
+  width: 20px;
+}
+.one{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  background-color: rgb(229, 226, 231);
+  margin-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.text{
+  color: rgb(28, 1, 51);
+}
+.width{
+  width: 700px;
+}
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #04233b;
+  color: white;
+}
+
+.footer3{
+  background-color: #04233b;
+  outline: none;
+  border-color: white;
+  height: 50px;
+  width: 250px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: white;
+}
+.footer3::placeholder{
+  color: white;
+}
+.footer3::placeholder:hover{
+  padding-left: 5px;
+}
+.fourii{
+  background-color: rgb(178, 66, 178);
+  width: 250px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  border: none;
+  margin-top: 20px;
+}
+.fourii:hover{
+  background-color: rgb(76, 31, 76);
+  cursor: pointer;
+}
+.footer .nav-link:hover{
+  color: rgb(118, 118, 186);
+}
+.first1img1{
+  height: 20px;
+  width: 20px;
+  margin-right: 20px;
+}
+.first1img2{
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.first1img3{
+  height: 20px;
+  width: 20px;
+}
+.last{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.two{
+  width: 500px;
+  align-items: center;
+  justify-content: center;
+}
+.link:hover{
+  padding-left: 5px;
+}
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #04233b; /* Set this to your brand's background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  transition: opacity 0.5s ease;
+}
+
+.loader-img {
+  width: 150px; /* Adjust size as needed */
+  height: auto;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+/* A smooth breathing/pulsing effect */
+@keyframes pulse {
+  0% { transform: scale(0.8); opacity: 0.8; }
+  50% { transform: scale(1.5); opacity: 1.5; }
+  100% { transform: scale(0.8); opacity: 0.8; }
+}
+
+
+
